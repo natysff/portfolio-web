@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habilidades</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/form.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="skills.html">Habilidades</a>
+            <a class="cabecalho__menu__link" href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <form class="form" action="https://formsubmit.co/nathalyfabiano04@gmail.com" method="POST">
+            <h2>Entre em contato comigo:</h2>
+
+            <label for="nome">Nome:</label>
+            <input type="text" name="name" id="nome" placeholder="Preencha seu nome" required>
+
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="seuemail@email.com.br" required>
+
+            <label for="textarea">Sua mensagem:</label>
+            <textarea name="message" id="textarea" cols="30" rows="10" placeholder="Sua mensagem..."></textarea>
+
+            <input type="hidden" name="_next" value="https://github.com/natysff/email-enviado.html">
+            <button type="submit">Enviar</button>
+       </form>
+    </main>
+    <footer class="rodape">
+        <img src="/assets/Logo_Alura_Include.png" alt="Logo Alura Include">
+        <p>Desenvolvido por Náthaly.</p>
+    </footer>
+</body>
+</html>

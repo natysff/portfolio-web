@@ -1,0 +1,49 @@
+.form {
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.form h2 {
+    color: #8B0000;
+    font-size: 32px;
+    margin-bottom: 16px;
+    margin-left: 40px;
+}
+
+.form label {
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-left: 40px;
+}
+
+.form input {
+    height: 40px;
+    margin-left: 40px;
+}
+
+.form input, .form textarea {
+    background-color: transparent;
+    border: 1px solid #8B0000;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 24px;
+    margin-left: 40px;
+}
+
+.form input:focus, .form textarea {
+    outline: 2px solid #8B0000;
+
+}
+
+.form button {
+    margin-top: 24px;
+    height: 40px;
+    background-color: #8B0000;
+    color: #141E46;
+    border: none;
+    border-radius: 12px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
